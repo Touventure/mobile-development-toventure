@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "819222658442",
+    "project_id": "touventure-ch2-ps582",
+    "storage_bucket": "touventure-ch2-ps582.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:819222658442:android:7474ca06dccfe972b75c73",
+        "android_client_info": {
+          "package_name": "com.capston.touventure"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "819222658442-jnjr49kp0acvt2goaie6silln9bqe8le.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQCl1_LR9weJ4AFNOFlB3q6ujon3QTDBc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "819222658442-jnjr49kp0acvt2goaie6silln9bqe8le.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

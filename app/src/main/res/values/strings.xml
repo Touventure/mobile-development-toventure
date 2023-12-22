@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Touventure</string>
+    <string name="default_web_client_id">client</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="searchbar_hint">Destination</string>
+    <string name="error_message">User Not Found</string>
+    <string name="favorite">Favorite</string>
+    <string name="title_detail_destination">Popular Destination</string>
+    <string name="location">Location</string>
+    <string name="title_location">Place</string>
+    <string name="description_destination">Description</string>
+    <string name="description_event">Event</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_map">Map</string>
+    <string name="category">Category</string>
+    <string name="normal_type">Normal</string>
+    <string name="satellite_type">Satellite</string>
+    <string name="terrain_type">Terrain</string>
+    <string name="hybrid_type">Hybrid</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="username">Username</string>
+
+    <!-- category -->
+    <string name="rating_count">Rating Count</string>
+    <string name="rating_ave">Rating Ave</string>
+    <string name="nautical">Nautical</string>
+    <string name="culture">Culture</string>
+    <string name="nature_reserve">Nature Reserve</string>
+    <string name="shopping_center">Shopping Center</string>
+    <string name="amusement_park">Amusement Park</string>
+    <string name="place_of_worship">Place Of Worship</string>
+
+    <!-- category -->
+    <!-- category -->
+
+    <!-- welcome -->
+    <string name="image_welcome">welcome</string>
+    <string name="descwelcome">description welcome</string>
+    <string name="register">Create Account</string>
+    <string name="intent_login">Al Ready Have an Account</string>
+    <string name="login">Sign In</string>
+    <string name="predict">Predict</string>
+    <string name="rekomendasi">Rekomendasi</string>
+
+
+</resources>

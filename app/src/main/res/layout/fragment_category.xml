@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.CategoryFragment">
+
+    <Button
+        android:id="@+id/rating_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="36dp"
+        android:gravity="center"
+        android:text="@string/rating_count"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvRatingCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        app:layout_constraintEnd_toEndOf="@+id/rating_count"
+        app:layout_constraintStart_toStartOf="@+id/rating_count"
+        app:layout_constraintTop_toBottomOf="@+id/rating_count" />
+
+
+    <TextView
+        android:id="@+id/tvRatingEve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        app:layout_constraintEnd_toEndOf="@+id/rating_rave"
+        app:layout_constraintStart_toStartOf="@+id/rating_rave"
+        app:layout_constraintTop_toBottomOf="@+id/rating_rave" />
+
+    <TextView
+        android:id="@+id/tvNautical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        app:layout_constraintEnd_toEndOf="@+id/nautical"
+        app:layout_constraintStart_toStartOf="@+id/nautical"
+        app:layout_constraintTop_toBottomOf="@+id/nautical" />
+
+    <TextView
+        android:id="@+id/tvCulture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        app:layout_constraintEnd_toEndOf="@+id/culture"
+        app:layout_constraintStart_toStartOf="@+id/culture"
+        app:layout_constraintTop_toBottomOf="@+id/culture" />
+
+    <TextView
+        android:id="@+id/tvNatureReserve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        app:layout_constraintEnd_toEndOf="@+id/nature_reserve"
+        app:layout_constraintStart_toStartOf="@+id/nature_reserve"
+        app:layout_constraintTop_toBottomOf="@+id/nature_reserve" />
+
+    <TextView
+        android:id="@+id/tvShopping"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        app:layout_constraintEnd_toEndOf="@+id/shopping_center"
+        app:layout_constraintStart_toStartOf="@+id/shopping_center"
+        app:layout_constraintTop_toBottomOf="@+id/shopping_center" />
+
+    <TextView
+        android:id="@+id/tvPlaceOfWorkship"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        app:layout_constraintEnd_toEndOf="@+id/place_of_worship"
+        app:layout_constraintStart_toStartOf="@+id/place_of_worship"
+        app:layout_constraintTop_toBottomOf="@+id/place_of_worship" />
+
+    <TextView
+        android:id="@+id/tvAmusement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        app:layout_constraintEnd_toEndOf="@+id/amusement_park"
+        app:layout_constraintStart_toStartOf="@+id/amusement_park"
+        app:layout_constraintTop_toBottomOf="@+id/amusement_park" />
+
+    <Button
+        android:id="@+id/rating_rave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="@string/rating_ave"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginEnd="24dp"/>
+
+    <Button
+        android:id="@+id/nautical"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nautical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rating_count" />
+
+    <Button
+        android:id="@+id/culture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/culture"
+        app:layout_constraintEnd_toEndOf="@+id/rating_rave"
+        app:layout_constraintTop_toTopOf="@+id/nautical" />
+
+    <Button
+        android:id="@+id/nature_reserve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nature_reserve"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toStartOf="@+id/nautical"
+        app:layout_constraintTop_toBottomOf="@+id/nautical" />
+
+    <Button
+        android:id="@+id/shopping_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/shopping_center"
+        app:layout_constraintEnd_toEndOf="@+id/culture"
+        app:layout_constraintTop_toTopOf="@+id/nature_reserve" />
+
+    <Button
+        android:id="@+id/amusement_park"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/amusement_park"
+        app:layout_constraintEnd_toEndOf="@+id/shopping_center"
+        app:layout_constraintTop_toTopOf="@+id/place_of_worship" />
+
+    <Button
+        android:id="@+id/place_of_worship"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/place_of_worship"
+        app:layout_constraintStart_toStartOf="@+id/nature_reserve"
+        app:layout_constraintTop_toBottomOf="@+id/nature_reserve" />
+
+    <Button
+        android:id="@+id/predict"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/predict"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvPlaceOfWorkship" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
